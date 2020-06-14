@@ -28,6 +28,12 @@
   * 老的game进程收到kill信息后，停止消费redis消息队列里的消息，保存进程内的全部状态到redis，os.Exit(0)
   * 新的game进程启动时，先从redis加载上一个进程的状态到内存, 然后开始处理redis消息
   * 重启停机时间一般在100ms以内
+## v2.6 版本规划
+   * [ ] 使用FEN格式表示棋盘: http://www.xqbase.com/protocol/cchess_fen.htm
+   * [ ] 使用golang编写客户端网络传输逻辑
+   * [ ] 接入chessdb.cn的api，支持人机对战
+   * [ ] 支持tcp加密链接, 使用rsa协商密钥、aes加密
+   
 ## ChessClient 需要
 * qt  >= 5.6
 ## 引用项目
