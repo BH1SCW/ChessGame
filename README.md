@@ -32,8 +32,8 @@
    * [ ] 使用FEN格式表示棋盘: http://www.xqbase.com/protocol/cchess_fen.htm
    * [ ] 使用golang编写客户端网络传输逻辑
    * [ ] 接入chessdb.cn的api，支持人机对战
-   * [ ] 支持tcp加密链接, 使用rsa协商密钥、aes加密
-   
+   * [ ] 支持保存棋谱、离线回放
+   * [ ] 支持tcp加密链接, 使用rsa协商密钥、aes加密, 客户端验证服务器公钥
 ## ChessClient 需要
 * qt  >= 5.6
 ## 引用项目
