@@ -31,7 +31,7 @@
 ## v2.6 版本规划
    * [ ] 使用FEN格式表示棋盘: http://www.xqbase.com/protocol/cchess_fen.htm
    * [ ] 使用golang编写客户端网络传输逻辑
-   * [ ] 接入chessdb.cn的api，支持人机对战
+   * [ ] 客户端接入chessdb.cn的[api](https://www.chessdb.cn/cloudbook_api.html)、接入[Stockfish](https://github.com/mcostalba/Stockfish)，支持人机对战
    * [ ] 支持保存棋谱、离线回放
    * [ ] 支持tcp加密链接, 使用rsa协商密钥、aes加密, 客户端验证服务器公钥
 ## ChessClient 需要
